@@ -1,0 +1,962 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 278,
+    "sha256": "27c9e2e44a01174ce1e0bfba0de88b20bfe625702aa77e6d017164577467fa53"
+  },
+  {
+    "path": "Docs/A电机上电自转排查记录.md",
+    "bytes": 3695,
+    "sha256": "937650d25e8914bafa2149e329df1df4df8b86e2c766125c80189ee3a2a4fc84"
+  },
+  {
+    "path": "Docs/Web控制台使用说明.md",
+    "bytes": 6723,
+    "sha256": "6a9f05f3e840669d964f483e3cf60e6cd8824ae7201a729ebec9412024a2f85c"
+  },
+  {
+    "path": "Docs/Web控制台联调记录.md",
+    "bytes": 6170,
+    "sha256": "2ba20c641785731efa2b1a13c491398ac07aefd8cb9e5d2a30725768018cbf34"
+  },
+  {
+    "path": "Docs/WiFi和显示屏调试记录.md",
+    "bytes": 1568,
+    "sha256": "1ea6cce10337f2904983a0b59d52d776cda43dc512853240bc655e488643dfbe"
+  },
+  {
+    "path": "Docs/单电机调试记录.md",
+    "bytes": 9113,
+    "sha256": "cd4bdd0f02804cc26fe9d1836b23dbc9d45a0d0df258a89574021ae4640f21ea"
+  },
+  {
+    "path": "Docs/双电机分别调试记录.md",
+    "bytes": 3240,
+    "sha256": "939b07dfbb7b815408496865652f573130f8971a95f2eb45c1798d3146b31167"
+  },
+  {
+    "path": "Docs/屏幕表情开发文档.md",
+    "bytes": 16034,
+    "sha256": "a3accb068358a1533d7cc557537c4b79f9a3edce21247f2162840aef66190360"
+  },
+  {
+    "path": "Docs/接线图/AI小车_接线图.svg",
+    "bytes": 18345964,
+    "sha256": "c5410d172e3c185569123627e3d002b99389b4022de9af07229dcc85b27e6e02"
+  },
+  {
+    "path": "Docs/接线图/AI小车_接线图_16比9.svg",
+    "bytes": 18345964,
+    "sha256": "c5410d172e3c185569123627e3d002b99389b4022de9af07229dcc85b27e6e02"
+  },
+  {
+    "path": "Docs/接线图/AI小车_接线图_1920x1080.png",
+    "bytes": 671037,
+    "sha256": "fe9ea32997ed6caa907442530c089acbd2dd901cc82795940fa2cbca602510e1"
+  },
+  {
+    "path": "Docs/接线图/AI小车_接线图_3840x2160.png",
+    "bytes": 2414272,
+    "sha256": "0636bf451362be1ae01b6d559acca40ae4729b1b40644533d5340cc3b3de4e4b"
+  },
+  {
+    "path": "Docs/接线图/接线数据.json",
+    "bytes": 16586,
+    "sha256": "6ab555c9d576be01ae64f89e41bda90bb55d6c2f9598786544793af4f9d604f3"
+  },
+  {
+    "path": "Docs/接线图/接线数据_交叉优化前.json",
+    "bytes": 15625,
+    "sha256": "e904a1b50249338619088c03b5a7d82a289fa8a43930ace3537ec02feb24db37"
+  },
+  {
+    "path": "Docs/接线图/生成16比9接线图.py",
+    "bytes": 14171,
+    "sha256": "c7e256c54a23235b39587d7695154bcc4c773b1f2d7e73ce181c16a3980fa507"
+  },
+  {
+    "path": "Docs/接线图/白底器件素材/01_XIAO_ESP32C3.png",
+    "bytes": 1782361,
+    "sha256": "7beb3aa03cf67449200b0adec8066119d160fac125556cd0439ae4ee8359e208"
+  },
+  {
+    "path": "Docs/接线图/白底器件素材/02_双路电机驱动.png",
+    "bytes": 2161953,
+    "sha256": "ea803108857d57c6ba0d5d95bb42c195e367d6279e74ee051c9034c666b682f6"
+  },
+  {
+    "path": "Docs/接线图/白底器件素材/03_XL3608升压板.png",
+    "bytes": 2075419,
+    "sha256": "e9bb5859ad30365f394c304f2d470d1d0acd2064f98bf32414ddc98453b94409"
+  },
+  {
+    "path": "Docs/接线图/白底器件素材/04_N20电机.png",
+    "bytes": 1618950,
+    "sha256": "9d18edb748474b336e3ddd8b773261eae4158b1b8a79480f7050fa7b28e98cdf"
+  },
+  {
+    "path": "Docs/接线图/白底器件素材/05_倍量CR123A电池.png",
+    "bytes": 1337380,
+    "sha256": "6e7a75bc121d2025c12a83c13bf165e455e5f314b2377291fe8db10d7db86bf6"
+  },
+  {
+    "path": "Docs/接线图/白底器件素材/06_SS12F44G8拨动开关.png",
+    "bytes": 1482907,
+    "sha256": "aad7222c1fd98cdaf2775019fa5c1d34a2b44e1c9cd68412e0a62182a94e7179"
+  },
+  {
+    "path": "Docs/接线图/白底器件素材/07_SSD1306显示屏.png",
+    "bytes": 1664039,
+    "sha256": "157b1d1ddf7ad57b0201fd9897dba08e0714a00cb25a555c37903b13110c404b"
+  },
+  {
+    "path": "Docs/接线图/编辑说明.md",
+    "bytes": 1256,
+    "sha256": "e8d5ca26ccf31351923afa4cf9b5796e32dc923bbda90e6a047724d67a42a907"
+  },
+  {
+    "path": "Docs/摇杆控制台联调记录.md",
+    "bytes": 3436,
+    "sha256": "c8c01a09e1574c9c12a39fe78949175c268a6f8960a24dac19af6ac201401f8c"
+  },
+  {
+    "path": "Docs/无线升级与分享版联调记录.md",
+    "bytes": 5502,
+    "sha256": "7bc124b0b87bcad3b4a606afc58f620cdfb994024f0937398fd59629bb9d8e8a"
+  },
+  {
+    "path": "Docs/电脑热点连接排查记录.md",
+    "bytes": 3105,
+    "sha256": "aa87aa5d7010df1332482791577cb70148ce0f2ae967e41a3db578827a04b69d"
+  },
+  {
+    "path": "Docs/硬件技术文档.md",
+    "bytes": 27465,
+    "sha256": "bea611c44ade75a3d0f22e65dc3127f380d98743583c47a39a4b6014ace2614d"
+  },
+  {
+    "path": "Docs/购买清单/AI小车_购买清单_16比9.svg",
+    "bytes": 19624630,
+    "sha256": "5e3be970f46d7db585e00950ac4a068aae36f83359acf24c8d379b7cb749565c"
+  },
+  {
+    "path": "Docs/购买清单/AI小车_购买清单_1920x1080.png",
+    "bytes": 621163,
+    "sha256": "3f5f0fdee4aec99eebcf807d3e11d737215728b4f5fb18a3825fcfd0a4fea133"
+  },
+  {
+    "path": "Docs/购买清单/AI小车_购买清单_4K.png",
+    "bytes": 2218440,
+    "sha256": "32f275f57c9a549b0ffdb2d7d380e6af1f66c4f467d28fb50b81c0282018bf6b"
+  },
+  {
+    "path": "Docs/购买清单/生成购买清单.py",
+    "bytes": 5131,
+    "sha256": "d7f864dcbe78ce403bc5cd52fc0df8c8a6ede66a574cccf7c18a8ed07482bec4"
+  },
+  {
+    "path": "Docs/购买清单/素材/01_XIAO_ESP32C3.png",
+    "bytes": 1782361,
+    "sha256": "7beb3aa03cf67449200b0adec8066119d160fac125556cd0439ae4ee8359e208"
+  },
+  {
+    "path": "Docs/购买清单/素材/02_双路电机驱动.png",
+    "bytes": 2161953,
+    "sha256": "ea803108857d57c6ba0d5d95bb42c195e367d6279e74ee051c9034c666b682f6"
+  },
+  {
+    "path": "Docs/购买清单/素材/03_XL3608升压板.png",
+    "bytes": 2075419,
+    "sha256": "e9bb5859ad30365f394c304f2d470d1d0acd2064f98bf32414ddc98453b94409"
+  },
+  {
+    "path": "Docs/购买清单/素材/04_N20电机.png",
+    "bytes": 1618950,
+    "sha256": "9d18edb748474b336e3ddd8b773261eae4158b1b8a79480f7050fa7b28e98cdf"
+  },
+  {
+    "path": "Docs/购买清单/素材/05_倍量CR123A电池.png",
+    "bytes": 1337380,
+    "sha256": "6e7a75bc121d2025c12a83c13bf165e455e5f314b2377291fe8db10d7db86bf6"
+  },
+  {
+    "path": "Docs/购买清单/素材/06_SS12F44G8拨动开关.png",
+    "bytes": 1482907,
+    "sha256": "aad7222c1fd98cdaf2775019fa5c1d34a2b44e1c9cd68412e0a62182a94e7179"
+  },
+  {
+    "path": "Docs/购买清单/素材/07_SSD1306显示屏.png",
+    "bytes": 1664039,
+    "sha256": "157b1d1ddf7ad57b0201fd9897dba08e0714a00cb25a555c37903b13110c404b"
+  },
+  {
+    "path": "Docs/购买清单/素材/08_M2x6十字圆头螺丝.png",
+    "bytes": 1395313,
+    "sha256": "1659d4b170ce69fb2c1666bc6aec086719765a01347fc53aeb6018759e99ae14"
+  },
+  {
+    "path": "Docs/购买清单/素材/09_杜邦线.png",
+    "bytes": 1195350,
+    "sha256": "445dbb808b3f2d4f10e67eebb0e08f4cf1afd7e61fdf70851bdee7dca9e7d984"
+  },
+  {
+    "path": "Docs/购买清单/编辑说明.md",
+    "bytes": 1668,
+    "sha256": "cb09169641f86abca0f213530230ac25e3f349561987c6e3c9436b8ca562c783"
+  },
+  {
+    "path": "Docs/购买清单/购买清单.json",
+    "bytes": 2433,
+    "sha256": "7c0ed74d6845e322334200e4a5f2e1d35c21b936adbe8e13cef14aaf627c2868"
+  },
+  {
+    "path": "Docs/购买清单/配图生成记录.json",
+    "bytes": 1753,
+    "sha256": "10975ccae101ca30f55a0d53f6c9d29e2a2d6bdf498ee7b131489c04ec2532ab"
+  },
+  {
+    "path": "Docs/软件技术文档.md",
+    "bytes": 33195,
+    "sha256": "d948aeb55547917f91fcfaa50dc47467dbadf8c236ba23ae587c9d26ce2fd123"
+  },
+  {
+    "path": "Docs/需求开发进度表.md",
+    "bytes": 18147,
+    "sha256": "e72b130be1395e5c492471b997028379f9b4e552f32bc219d7f27ed4f1806562"
+  },
+  {
+    "path": "Docs/需求文档.md",
+    "bytes": 23755,
+    "sha256": "da50038e55d694358d5d5f16098282f52904a5017e1ea5b144ad02b009a54d3c"
+  },
+  {
+    "path": "firmware/capture.py",
+    "bytes": 1013,
+    "sha256": "9828a51615b4e3b91711b61b3cf3f02ff09221863b9eae280ed1dd63bc85aae1"
+  },
+  {
+    "path": "firmware/CMakeLists.txt",
+    "bytes": 138,
+    "sha256": "e23d5588c119d11060f9e1776de789853e18095cac1bc22bf140c9ff0f161831"
+  },
+  {
+    "path": "firmware/components/mdns/.cz.yaml",
+    "bytes": 217,
+    "sha256": "7a0b70fc0864ecdd73fc97b10be8b645fe6e029357e00d652a69fe69088826db"
+  },
+  {
+    "path": "firmware/components/mdns/CHANGELOG.md",
+    "bytes": 78740,
+    "sha256": "70150fca459b468742ba60d969a10d116b18df12bfd68fb1f588861052b4ef42"
+  },
+  {
+    "path": "firmware/components/mdns/CMakeLists.txt",
+    "bytes": 2285,
+    "sha256": "ddfa36ba9eb24fd9bbe83865b25c9de3b919a75897d6622129e040a92937cd73"
+  },
+  {
+    "path": "firmware/components/mdns/idf_component.yml",
+    "bytes": 452,
+    "sha256": "e024c403fe365c751675c422de5b7783f6d5e41a08e86545576b3712b7dc7ae7"
+  },
+  {
+    "path": "firmware/components/mdns/include/mdns.h",
+    "bytes": 47009,
+    "sha256": "023b2976806bb07cc34b113622cada3a8df32459c99c0e81b55e14b28a2a5f4c"
+  },
+  {
+    "path": "firmware/components/mdns/include/mdns_console.h",
+    "bytes": 322,
+    "sha256": "f3d6b3c48444af48227fbb1a8132930a8d9c21bf92a461897fbae0005489e28f"
+  },
+  {
+    "path": "firmware/components/mdns/Kconfig",
+    "bytes": 7655,
+    "sha256": "5c335f054372fe2d765d0f6849e84994d348d4bb7b34fefd5fb5119b09fbfd7f"
+  },
+  {
+    "path": "firmware/components/mdns/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_browser.c",
+    "bytes": 13117,
+    "sha256": "86049099423979312a2d4b504402bba90a2e4d121f3ee62322a1a021e445e0ad"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_cache.c",
+    "bytes": 39378,
+    "sha256": "feea2612ee2c365aee0a143f7981a6e7d6980595e1bdb2c86c1a70f9a1fcb0bb"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_console.c",
+    "bytes": 52194,
+    "sha256": "d4e33acbfeb6d509d85055a0f261346780bcfe238ee0589ca17f8acffb25a17f"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_debug.c",
+    "bytes": 16882,
+    "sha256": "da84dbe00fe1018cc3a96999909338cb85d49141702fe98e9e561abf72c1c193"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_diagram.md",
+    "bytes": 1559,
+    "sha256": "da3b56ee3311c92f89f685e02a0de1a582fda1e6158ccaf9c0eb239022f28c3f"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_mem_caps.c",
+    "bytes": 2503,
+    "sha256": "1c86e50d6601d7b625798133332c70df0974b85ed167ad82c07f545b0889951c"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_netif.c",
+    "bytes": 16337,
+    "sha256": "cd39c232ea1a499d6aaa0b8f658805b2673d6c58db9ac3243349e3884980b1e3"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_networking_lwip.c",
+    "bytes": 12250,
+    "sha256": "835bb6aa3f05c59997c530a7e15fefcad84c47b43161db14dec8cd6a9ad168ee"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_networking_socket.c",
+    "bytes": 20319,
+    "sha256": "e373032654436d0c3eacfb5208c27004f9303fc572edf78f19af216bb208493b"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_pcb.c",
+    "bytes": 15731,
+    "sha256": "518d39f2a7a29bad2dea868109b8814a5b60b7ca300d8074779260be6b32a9d0"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_querier.c",
+    "bytes": 32655,
+    "sha256": "25ebbfddbf77b9ac45dbafaf2ddef626cc396ad1d5bcfd2710043e25e1fe3889"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_receive.c",
+    "bytes": 58433,
+    "sha256": "ea9e2d2764e2a54e43e7efdaf246e812170776e10f557af8638d8693022f62c5"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_responder.c",
+    "bytes": 61070,
+    "sha256": "d8d71be195e80309a83b63f78b9e02c86a1eb87879a1d02af7e9ccbac04d9325"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_send.c",
+    "bytes": 67367,
+    "sha256": "22647b7a0119b116cc3a93a49fd9968950f9671c5da72f813b300599e38ab27b"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_service.c",
+    "bytes": 15332,
+    "sha256": "6b831c4348abc2641fe7af3d7102b64d46b15b54b323c1b3c0151cbbc168c38d"
+  },
+  {
+    "path": "firmware/components/mdns/mdns_utils.c",
+    "bytes": 10303,
+    "sha256": "5aaa6c557912a42ad56cdae7b303e41ebcd0a5b360920d1fcfa08f3e55dd93a3"
+  },
+  {
+    "path": "firmware/components/mdns/mem_prefix_script.py",
+    "bytes": 1424,
+    "sha256": "9e8dc62d52444fe7a2f721b91ef5c992846580b99f4fa5b505a24db13f40fe01"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_browser.h",
+    "bytes": 3112,
+    "sha256": "a41d43a7a6472d500bfd9f2580c3fa57a5fd1f2229f91e97435aa8a791afb8c9"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_cache.h",
+    "bytes": 7604,
+    "sha256": "336fb6e9a379fb6911a185458b8b1bc5a852148ff7723cde299d574387cece16"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_debug.h",
+    "bytes": 2058,
+    "sha256": "029d0e154b977efe39c53616ff4a812d5f9cdba7dda8f9ae4995a9c97180a650"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_mem_caps.h",
+    "bytes": 1548,
+    "sha256": "b5f124504da6dbc41af4bc1d2f142a7ac80936dab8dbccb6f3e3b14f8980de9e"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_netif.h",
+    "bytes": 1801,
+    "sha256": "278f90352bcdd9374e062eb9a4cc576b165f74f885cfe34c3b38438a35517b03"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_networking.h",
+    "bytes": 1454,
+    "sha256": "3e3f9cee800857bf7fbba3153e9b10e002e6d1d481e91275945c23352b1fc1b2"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_pcb.h",
+    "bytes": 3730,
+    "sha256": "2951bf89ff56a204988bd96e9a3fd9b0ba09d04020dd4b01366106b84e200951"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_private.h",
+    "bytes": 14818,
+    "sha256": "92f9a3a6b2c6efaf497d62f0fbcaa8e2b0d6507ba69a720631ec4125c995e7c4"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_querier.h",
+    "bytes": 3757,
+    "sha256": "03fc7b1ce63e08b30cbe7f7da8ebea5048a082d425313e4588ff49ce7aac00ad"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_receive.h",
+    "bytes": 465,
+    "sha256": "d1cbb7dc184f85df7e8231be3f290e5137c9dbc06297d4ddff4e00e4542689ea"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_responder.h",
+    "bytes": 2201,
+    "sha256": "bfc449dc3c00667741a274de8ee7352cc83af88dab54fc639e26b7971bf421ad"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_send.h",
+    "bytes": 4242,
+    "sha256": "e44836355be717c2f5a5fd1e3b99c1e99f04ed69841fced4e183dc2d794bd7af"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_service.h",
+    "bytes": 543,
+    "sha256": "17f0adc965ca61d110b8ee9130b9b8b0d3526778360278559a6226cf71ae40a2"
+  },
+  {
+    "path": "firmware/components/mdns/private_include/mdns_utils.h",
+    "bytes": 5055,
+    "sha256": "247b985437e3c3dafccd394a41894b83878dee9f8009751323a1e66287a69ec1"
+  },
+  {
+    "path": "firmware/components/mdns/README.md",
+    "bytes": 687,
+    "sha256": "461c07b538ac2322d1c1033bb6123c45c75313e58574d32653429d4a537ca908"
+  },
+  {
+    "path": "firmware/components/mdns/refactor_2025.md",
+    "bytes": 5687,
+    "sha256": "94bc2ac38c14087b776ec1531e76169a3ff6041d13af46afba7e623cbd8cbdcb"
+  },
+  {
+    "path": "firmware/components/mdns/refactoring_details.md",
+    "bytes": 161857,
+    "sha256": "f956b299e49097d7fdf7e72f80036bc7c77454aecdf96fc81964b04c3915a1eb"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/bonjour_order_responder.py",
+    "bytes": 10610,
+    "sha256": "70f0e1135d53b1e3b60e4e9656db1a1746fb4d3a99fe2adaa1a44939aaa1d144"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/CMakeLists.txt",
+    "bytes": 557,
+    "sha256": "b8b96c52e4af505eae542a893a71e4618a0e92e8c644fb6fcaa4b0144e5798e1"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/components/esp_netif_linux/CMakeLists.txt",
+    "bytes": 322,
+    "sha256": "22c70ddd5a9d182b5ad6a583db9fbde320a6d981fe3b65c1861913f2d2c3b70e"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/components/esp_netif_linux/esp_netif_linux.c",
+    "bytes": 5179,
+    "sha256": "a6cef5dcbe1ea8857413db072af38487c6a4baa41939517563c2ebc3d98c6a87"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/components/esp_netif_linux/include/esp_wifi_types.h",
+    "bytes": 165,
+    "sha256": "a67493b0d2e2d379dbdee5ffa693196b482bb9b497225bdfdc160dd53d8a3cc2"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/components/esp_netif_linux/include/machine/endian.h",
+    "bytes": 169,
+    "sha256": "4e09b8e8eeef84925a635767a55b2449147e55f54a9be70a973e3f7be39f70dc"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/components/esp_netif_linux/Kconfig",
+    "bytes": 257,
+    "sha256": "ac8bff8c86c8e268c11d1926ed0d70459156e00f48d9f715b856b9dbe8d9511d"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/dnsfixture.py",
+    "bytes": 6936,
+    "sha256": "d5ea2c13d1825de2fb7e9ca30f1f1d6b3a452e55ae024d1947225ed5c02381b8"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/main/CMakeLists.txt",
+    "bytes": 151,
+    "sha256": "d445207e7e9ec0f96a264e3645be10d243db412190c37e037c7ed3f810f958e4"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/main/idf_component.yml",
+    "bytes": 201,
+    "sha256": "ba446b66e793f1e609b753740c205d1cf9a7b1bad509bdbec6ef694c8401ecf5"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/main/Kconfig.projbuild",
+    "bytes": 507,
+    "sha256": "43e5370c092dcace9d05489494f8178df02adace71014f025cc465a01e2e8781"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/main/main.c",
+    "bytes": 4791,
+    "sha256": "28719d70934974bfeb9e8e144f7804b6c1c29e52ef5a4ccc7bc0036af917c4cc"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/pytest_mdns.py",
+    "bytes": 20431,
+    "sha256": "86a33d155ccd37a117b1f580fdbc70ac95b1ce333d772dae8c46009fd265fe75"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/querier_responder.py",
+    "bytes": 6231,
+    "sha256": "47dfb38f6657b4d63835d7fa9dc75054e8dcb7bad4bbd11d4d68da4d3ddcc5fe"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/README.md",
+    "bytes": 1008,
+    "sha256": "84ba19cf6062a39a9ef2fd0134cecf42e2c28dd592821312250b9ab8a29477a4"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/sdkconfig.ci.app",
+    "bytes": 127,
+    "sha256": "b1a7f50d173e21fcc01d3d45e2698e8840c87d6963e2dbb27e6c5943b9125593"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/sdkconfig.ci.console",
+    "bytes": 114,
+    "sha256": "36fbd4c9edc43321f412b6704d3b1ad7ad625cf8e12a6881b1ffd09ed8d6fac2"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/sdkconfig.ci.target",
+    "bytes": 26,
+    "sha256": "b5cb63deea9b1e4d616752e09fab4ed18fbb039e5f980ea26431acf1307d67cb"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_test/sdkconfig.defaults",
+    "bytes": 199,
+    "sha256": "68e2a590541166d099f182e88bf4e239c259cd79bdf516ce1d08f5a4266e7bf8"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/CMakeLists.txt",
+    "bytes": 3181,
+    "sha256": "4793bd6326841dccbffb8bd471639c5b396b8009642fdb5924ba1937e38411ae"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/input/generate_cases.py",
+    "bytes": 6390,
+    "sha256": "3829b2a762b58f5ef2b664d3f2d8ec6ef62a785dc930e6cd03a5a52dd7d299b2"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/main.c",
+    "bytes": 4354,
+    "sha256": "894ab6e5784300074f414c252a8fccdf81100884ab74684b7e04256f81d915dd"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/README.md",
+    "bytes": 2413,
+    "sha256": "9da04b89ba0af3dbd5c9b22cfc43f1526922dcad7c872f8136f8d35639c46769"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/sdkconfig.defaults",
+    "bytes": 260,
+    "sha256": "c2d9e4cd278769551762ecf101839f8378f3a5e9a6c1bda891fa83b43b01bbd4"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/stubs/esp_assert.h",
+    "bytes": 254,
+    "sha256": "5b5c9d3d9443e335dc3d91e8bbb082defd86625ff1df1e5e7d6ec9886f2fdd87"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/stubs/esp_idf.c",
+    "bytes": 2141,
+    "sha256": "1aec0bf5b9ba0661b3533144d3f9faad7879e5b7efe557b87587a0f2563ab6be"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/stubs/esp_random.h",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/stubs/mdns_engine.c",
+    "bytes": 1482,
+    "sha256": "1ac6a36585512367a7f77dfa9fd626d62eb00cf7a3b385dd764019494dac06bf"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/stubs/mdns_mem_caps.c",
+    "bytes": 1590,
+    "sha256": "88129c3b7eb6710eb6b914289776b580e2de64043bdac6973c58a114b3bd8dcf"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/stubs/mdns_mem_caps_test.h",
+    "bytes": 217,
+    "sha256": "f8cb461285257cdee47a10c0296a353e155aac8a1859cadf777473eb4f8a454b"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/stubs/mdns_networking.c",
+    "bytes": 2774,
+    "sha256": "8eac2ca5495c49e61e138deaffb8306a94238a1774130eff024228e99cc6c77f"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/stubs/mdns_test_clock.h",
+    "bytes": 359,
+    "sha256": "d53a8a3d9a4d04071466f5bd92dde17c68cdd89958be3fc431feec1d19d5ce6a"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/stubs/sdkconfig.h",
+    "bytes": 41595,
+    "sha256": "4726b5ec713e4ab3e720dce5b4e7507c68ae14cf6ba615a5a1790747e988e4eb"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/cmock_config.yml",
+    "bytes": 285,
+    "sha256": "dea71eb95e7afdf259a605f9b8d24286dbe40627ce7cd2b81dae93393bda171d"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/create_test_packet.c",
+    "bytes": 4888,
+    "sha256": "85fbee67d327374e9ac59a7469bf4d7837214d3dec1a979258a9ae8fd3ddb316"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/create_test_packet.h",
+    "bytes": 1058,
+    "sha256": "b28e37b395836a21679fb22f0f5fbc6c572b6dc6ce3fdd93c8158774adb3a76a"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/enable_testing.cmake",
+    "bytes": 422,
+    "sha256": "27c5432b363bf7fe61dc45f03f17f41346b3ef615fd0dadfb21c9e7a8c78938d"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/test_browse/test_browse.c",
+    "bytes": 9329,
+    "sha256": "4a88a723f8051456d984929b0d923d2ae3340f66f83aca89eb181d91ba522207"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/test_browse/unit_test.cmake",
+    "bytes": 159,
+    "sha256": "b8ae91eb5321bccad9cd9c5590c4611d41f0dbece71c9023add31ab7810f759f"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/test_cache/test_cache.c",
+    "bytes": 37614,
+    "sha256": "b9dc93c51f125e877ba9e2365414213bb311609d2bcb45d1689a9fa6eb4529fe"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/test_cache/unit_test.cmake",
+    "bytes": 163,
+    "sha256": "6b8d19793208abbdf5c50903de190973ef9c73a1fd64cc981364a070a7616da4"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/test_receiver/test_receiver.c",
+    "bytes": 8225,
+    "sha256": "54123963b95f974def73940db29a0829d52e5b2befabcf4770b31525c602b39c"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/test_receiver/unit_test.cmake",
+    "bytes": 163,
+    "sha256": "91c876c76954a0e6d965d0978e5a1db288d87e18a758178493a0fd8362f60da1"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/test_sender/test_sender.c",
+    "bytes": 792,
+    "sha256": "e54b0fb2161861d5ce220bd5d32bcc07c137c40ccdf8c18008e404d325eaba1c"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/test_sender/unit_test.cmake",
+    "bytes": 132,
+    "sha256": "2f59a9a1d5c95be498e367760ba66564eb7f26b6639f85142f50314ae0a7233a"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/unit_test.cmake",
+    "bytes": 2128,
+    "sha256": "a9bc900561e8bc0ceac1f55d26e911b538f3068e1208bbd3f51a703dd7700bae"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/unity_main.c",
+    "bytes": 5187,
+    "sha256": "19e75118bc87b66859229b76805f3d56edd6c5249ef5bcc76cdc91aba8440bbc"
+  },
+  {
+    "path": "firmware/components/mdns/tests/host_unit_test/unity/unity_main.h",
+    "bytes": 310,
+    "sha256": "b62ed40729d976efbf77a5c333da9e86790d5a7d9ec0d1bf8c5f88b600fa0e18"
+  },
+  {
+    "path": "firmware/components/mdns/tests/unit_test/CMakeLists.txt",
+    "bytes": 505,
+    "sha256": "721bef043141d8019f6e3834d8cabec63f57c641bdb6875c6842bf5f4906fceb"
+  },
+  {
+    "path": "firmware/components/mdns/tests/unit_test/main/CMakeLists.txt",
+    "bytes": 180,
+    "sha256": "f3619c92c50b1b6394471cfeda50fa454dd6d849733927c167ef93f5c24efc82"
+  },
+  {
+    "path": "firmware/components/mdns/tests/unit_test/main/test_mdns.c",
+    "bytes": 20222,
+    "sha256": "488a161e17c333168510827c9f8c1e6888e4740554de88685fa2a5093d699b94"
+  },
+  {
+    "path": "firmware/components/mdns/tests/unit_test/pytest_app_mdns.py",
+    "bytes": 221,
+    "sha256": "b921ec083da4b588a1d0a67697a6c0bc04da3703117cdfba0989f7a2c57a536b"
+  },
+  {
+    "path": "firmware/components/mdns/tests/unit_test/sdkconfig.ci",
+    "bytes": 94,
+    "sha256": "8da7589f815a526c0e9bc8291cd1e58864041b80bec592a91840a5c8847cffa6"
+  },
+  {
+    "path": "firmware/components/mdns/tests/unit_test/sdkconfig.defaults",
+    "bytes": 68,
+    "sha256": "bf225acae456eb714b977921a0e9d29bdce06d7113f5544593758357810adc56"
+  },
+  {
+    "path": "firmware/dependencies.lock",
+    "bytes": 216,
+    "sha256": "a3a5e7d8552b3200d77e1152675cefb130d22730b93da84ab210b808e2416c97"
+  },
+  {
+    "path": "firmware/main/CMakeLists.txt",
+    "bytes": 394,
+    "sha256": "469d88d7a67fe50eaf8353b23a0867d11689a31a69567500c4352a0ab02914fc"
+  },
+  {
+    "path": "firmware/main/console.html",
+    "bytes": 86035,
+    "sha256": "224f0bc6d2588921bc53c70ed9348ceed4e591301b4139360a7bbf5223fdf589"
+  },
+  {
+    "path": "firmware/main/device_discovery.c",
+    "bytes": 1967,
+    "sha256": "2e3d16cfe8e365daf10fb704009568070002cd4080a7ecf3570594d33cad1b74"
+  },
+  {
+    "path": "firmware/main/device_discovery.h",
+    "bytes": 108,
+    "sha256": "d1be3a3dc49b3bc23cfc128a558cdf158521c98899d0afad2503a19688c800f1"
+  },
+  {
+    "path": "firmware/main/face_display.c",
+    "bytes": 4220,
+    "sha256": "be91c3e1d46e330881d12b2eeb708b170f97596fb71a09b7d3969cb9bf378332"
+  },
+  {
+    "path": "firmware/main/face_display.h",
+    "bytes": 421,
+    "sha256": "b76f537fa1ddde64410315ec065a65c8a83618024915b7881610b83ca4cdc0ee"
+  },
+  {
+    "path": "firmware/main/face_engine.c",
+    "bytes": 5160,
+    "sha256": "ac0b2a6d414a2adf8781e2a7c143bd6c19bada296b3bdfb8a3cd108cc28bc80a"
+  },
+  {
+    "path": "firmware/main/face_engine.h",
+    "bytes": 1134,
+    "sha256": "12fdc1fc0fe9bb2d17d65929e01415be33ecba2135faadbc0e920562129e5347"
+  },
+  {
+    "path": "firmware/main/firmware_update.c",
+    "bytes": 2596,
+    "sha256": "99b919e527bd1a0eff011fdd099e0a183764c91a2e0b3bb7ce5ad31e34ff65b5"
+  },
+  {
+    "path": "firmware/main/firmware_update.h",
+    "bytes": 97,
+    "sha256": "68a1eeb34d3a1980eba0be0c0c2c093fa9bb0537140c571a5fd5e8296fa63ac5"
+  },
+  {
+    "path": "firmware/main/main.c",
+    "bytes": 6841,
+    "sha256": "a1872446962e1b8953a8315e8f2dbaa26d0d7d7915e3fa312daeb16e5c267b55"
+  },
+  {
+    "path": "firmware/main/motor_bench.c",
+    "bytes": 11206,
+    "sha256": "18aebc88a6d9ef8553a29c3137f73c5718ba2b345c6903e47790cbae3920e1c3"
+  },
+  {
+    "path": "firmware/main/motor_bench.h",
+    "bytes": 1400,
+    "sha256": "873f59a0ad8833a3eb4d58f6758f00aa4618f13a8df1424d354139c32e0e3bbf"
+  },
+  {
+    "path": "firmware/main/setup.html",
+    "bytes": 10458,
+    "sha256": "9fcdc7f67712d1aa70633295778be9ba98d77437650e596effc954891faca77d"
+  },
+  {
+    "path": "firmware/main/web_console.c",
+    "bytes": 17343,
+    "sha256": "18c148056358ee04829483f37e4ab5ca97f7586e904b99342267a8614f2555db"
+  },
+  {
+    "path": "firmware/main/web_console.h",
+    "bytes": 125,
+    "sha256": "7248b3903579bf4d78313a26e814d9681655aa17340a072b8fb6ed2bcc24ce4c"
+  },
+  {
+    "path": "firmware/main/wifi_manager.c",
+    "bytes": 7022,
+    "sha256": "acc344e4cf22487f768899a66a7080a78559477fc626f745595c15b57d80ffd0"
+  },
+  {
+    "path": "firmware/main/wifi_manager.h",
+    "bytes": 632,
+    "sha256": "4d9f8678ad3e006284cd51f9e43927f7f6f9cf224d4d3cd655d08a8c22a75f33"
+  },
+  {
+    "path": "firmware/motor_probe.py",
+    "bytes": 4693,
+    "sha256": "828956f7b5a36d9153921f2b9b690e60a16f1b554a540906ba6dbb7c32a24e38"
+  },
+  {
+    "path": "firmware/partitions.csv",
+    "bytes": 197,
+    "sha256": "24a0d568221d3ef0ca28711d351c2a4c991406c47a71317556c6fd7d0c617900"
+  },
+  {
+    "path": "firmware/README.md",
+    "bytes": 392,
+    "sha256": "d1115fae4152296a77df0d65f71e8f08e40ef46ba77a57e1d90540154df38934"
+  },
+  {
+    "path": "firmware/sdkconfig.defaults",
+    "bytes": 294,
+    "sha256": "e3bddecd0f3e29206b3da4c5cc3459f4e16d66395b425b4fdb6b169fcf50f55f"
+  },
+  {
+    "path": "firmware/tests/face_demo.py",
+    "bytes": 1834,
+    "sha256": "b0f15f7c8a89f7872ff43d162de17d975d36efa391ea6280fa47df03d1357f1c"
+  },
+  {
+    "path": "firmware/tests/face_device_test.py",
+    "bytes": 3628,
+    "sha256": "f17a9587d2c4f8446c07079bf963f009edea36ef7118b6525886237ab805b3ed"
+  },
+  {
+    "path": "firmware/tests/face_display_test.c",
+    "bytes": 3039,
+    "sha256": "9311fc1fb6af2d2403b52216e8025fdc92d17007d16109d63b389dfbc85cd05b"
+  },
+  {
+    "path": "firmware/tests/face_engine_test.c",
+    "bytes": 4644,
+    "sha256": "1a62184721454fc179f6223fdfb2aebee92ce92c1fa9c86243cfc60802d18243"
+  },
+  {
+    "path": "firmware/tests/face_stability_probe.py",
+    "bytes": 3426,
+    "sha256": "d0fa0de26dd8d023835ef746e19f29b6c0f6c0f563d0d33835b410291ef3787e"
+  },
+  {
+    "path": "firmware/tests/joystick_device_test.py",
+    "bytes": 3290,
+    "sha256": "8b35864887076cd9a06fc1b23f3ad7cc5003ea99102ba82b9966b3e4246d138c"
+  },
+  {
+    "path": "firmware/tests/joystick_ui.test.cjs",
+    "bytes": 6672,
+    "sha256": "f77cd1881392bcee13b9aa015f126f21a07dbffe58f3d775b19656fe412795b8"
+  },
+  {
+    "path": "firmware/tests/ota_device_test.py",
+    "bytes": 2411,
+    "sha256": "35c6191b4a669ba5e881c0cf7dd1146c8bc65166c7f9d02c586647bba88892a0"
+  },
+  {
+    "path": "firmware/tests/render_face_preview.py",
+    "bytes": 2721,
+    "sha256": "a2638f1b7b9fbe895f53fd84ecc1a531948319b0ab59af5d01cb0538428e836f"
+  },
+  {
+    "path": "firmware/tests/run_face_host_tests.ps1",
+    "bytes": 1309,
+    "sha256": "29d5ea371521998bb212b7a1c73a7f7590906832daf329a74513b9f316c8ada6"
+  },
+  {
+    "path": "firmware/tests/setup_ui.test.cjs",
+    "bytes": 3110,
+    "sha256": "0b073ec66d6da4ce63774e695549c134561946a8bc1b636b94aa779c95615824"
+  },
+  {
+    "path": "firmware/tests/stubs/driver/i2c_master.h",
+    "bytes": 224,
+    "sha256": "cc1e7b8fbb85cf0d8b2f780b833506823e9bb96c06e2fc662e0f8d1bf9f37c60"
+  },
+  {
+    "path": "firmware/tests/stubs/esp_err.h",
+    "bytes": 256,
+    "sha256": "a547ae8234f203e8cc9b75952028e9a7b00ad1ffa9feb80d485ec2cbfbb117cf"
+  },
+  {
+    "path": "firmware/tests/stubs/esp_timer.h",
+    "bytes": 70,
+    "sha256": "7d18e645f5bbf86bc5cd3562329efe893c1e9b91ea51c4cb9b5802224b5152ca"
+  },
+  {
+    "path": "firmware/tests/stubs/freertos/FreeRTOS.h",
+    "bytes": 334,
+    "sha256": "68e1fe2fed5f7cc7b7f722bfa0445e53008514eed5d52f5e104fc92fcce70f6d"
+  },
+  {
+    "path": "firmware/tests/stubs/freertos/task.h",
+    "bytes": 326,
+    "sha256": "cb7f4eed2f967dc9405d32ef440fc9f76245b568d5f4d10fcd123d1b5b48089d"
+  },
+  {
+    "path": "firmware/tests/takeover_device_test.py",
+    "bytes": 1697,
+    "sha256": "290f90bae603018a88c3d935350408e0ba66b24e97a5e46bbb0dc8da414da36a"
+  },
+  {
+    "path": "firmware/tests/test_workbench.py",
+    "bytes": 2106,
+    "sha256": "090a6169dea4ff6171132c8dde77cc7a3578380ed808c71fa973416025db7d4f"
+  },
+  {
+    "path": "firmware/vendor/qrcode.js",
+    "bytes": 56694,
+    "sha256": "18ae399f81182bc9de916e9c77b195df20cc58d6f2d55a62b085a299f1bf1780"
+  },
+  {
+    "path": "firmware/web-device.example.json",
+    "bytes": 98,
+    "sha256": "fd4f63198501632831e2c2ad502d65bd7f75f32a7ce42af9ae5336ae31f6023d"
+  },
+  {
+    "path": "firmware/workbench.py",
+    "bytes": 8885,
+    "sha256": "58b2bc81f910af23638598fb5d53b528982993e87be0fc34a1a41d246fe78be6"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5053,
+    "sha256": "9f5c9b558160c266e25a276133ca7c89daba8ee0a6e61de0157e919f8311fd7d"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 44,
+    "sha256": "fcdce1d0c9d901cfcbb0b8e3fed4fce6fce7b304d17942e303fd7496d7fe44df"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 456,
+    "sha256": "93c26a771673a94240b8f5670b78a49e7a214d4d021644db2cdfbcd2871631a1"
+  },
+  {
+    "path": "发布核对.md",
+    "bytes": 1497,
+    "sha256": "3a1f7bcae53ca3a5434f9c28366f97ed036e70129b59b3d56199b9175553d53d"
+  }
+]
