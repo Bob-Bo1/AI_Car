@@ -6,6 +6,7 @@ path=Path(__file__).resolve().parents[1]/'workbench.py'
 spec=importlib.util.spec_from_file_location('car_workbench',path);workbench=importlib.util.module_from_spec(spec);spec.loader.exec_module(workbench)
 class DiscoveryTests(unittest.TestCase):
     def setUp(self):
+        (path.parent.parent/'tmp').mkdir(exist_ok=True)
         self.temp=tempfile.TemporaryDirectory(dir=path.parent.parent/'tmp');self.file=Path(self.temp.name)/'device.json'
         self.file.write_text(json.dumps({'device_mac':'00-11-22-33-44-55','ip':'192.0.2.1'}));self.discovery=workbench.Discovery(self.file)
     def tearDown(self):self.temp.cleanup()
