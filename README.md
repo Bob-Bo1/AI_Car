@@ -7,9 +7,9 @@
 打开 [Releases 下载页](https://github.com/Bob-Bo1/AI_Car/releases/latest)：
 
 - **AI-Car-v0.7.0-Windows-x64.zip**：Windows 首次安装工具、固件、USB 刷写工具和使用指引。
-- **AI-Car-hardware-docs-20261024.zip**：物料清单、接线图、可编辑 SVG、生成源码、独立器件图片。
-- **AI-Car-v0.7.0-with-hardware-20261024.zip**：主项目源码和硬件资料的完整归档。
-- **SHA256SUMS.txt**：上述下载文件的校验值。
+- **AI-Car-hardware-docs-20261024.zip**：最终物料清单、接线图、可编辑 SVG、1080p/4K PNG 和引脚/清单数据。
+- **主项目源码**：在仓库首页选择 `Code → Download ZIP`，或直接克隆本仓库。
+- **SHA256SUMS.txt**：Windows 安装包和硬件资料包的校验值。
 
 ## 首次使用
 
@@ -62,11 +62,11 @@
 ## 源码与编辑
 
 - `firmware/main/`：电机、Wi-Fi、OLED、控制台、配网页和 OTA 实现。
-- `firmware/components/mdns/`：随源码保留的 Espressif mDNS 组件及原许可证。
+- `firmware/components/mdns/`：随源码保留的 Espressif mDNS 编译所需源码及原许可证。
 - `firmware/vendor/qrcode.js`：二维码生成库，保留原版权和 MIT 声明。
-- `firmware/tests/`：主机测试与需要实机配合的测试脚本。
-- `Docs/接线图/`、`Docs/购买清单/`：当前成品、生成源码、数据和器件图片。
-- `Docs/` 中需求、设计和联调文档记录各阶段情况，部分章节属于历史版本；当前 v0.7.0 入口和接线以本页及当前接线图为准。
+- `firmware/tests/`：工作台、配网页、摇杆与屏幕的主机测试。
+- `Docs/接线图/`、`Docs/购买清单/`：最终 PNG、可编辑 SVG、引脚与清单数据。图片已嵌入 SVG。
+- 公开版本只保留使用、编译和接线需要的内容；历史调试记录、第三方测试/说明文档、重复图稿和独立器件图片留在本地。
 
 固件使用 **ESP-IDF 5.5.4**，目标 **ESP32-C3、4MB Flash**。激活 ESP-IDF 环境后：
 
@@ -77,7 +77,7 @@ idf.py build
 idf.py -p <你的串口> flash
 ```
 
-图稿使用 Python、Pillow、CairoSVG 生成。安装 `requirements.txt` 后分别运行图稿目录内的生成脚本；中文字体可用微软雅黑或 Noto Sans CJK SC。修改采购名称、型号、数量时先编辑 `Docs/购买清单/购买清单.json`。
+修改图稿时直接使用 Inkscape 或 Illustrator 打开 SVG；文字、接点和导线可独立编辑，器件图片已经内嵌。清单数据另存为 JSON，便于核对和复用。图稿的生成工程与独立素材保留在本地。
 
 开发电脑工作台需要自己的 `firmware/web-device.json`。可复制示例文件后填写自己的设备信息，或优先使用 Windows 安装器自动生成；真实连接配置不提交到仓库。
 
